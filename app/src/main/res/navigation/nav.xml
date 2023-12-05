@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/Tercero">
+
+    <fragment
+        android:id="@+id/Primero"
+        android:name="com.example.reforaccion.Primero"
+        tools:layout="@layout/fragment_primero" />
+
+    <fragment
+        android:id="@+id/Segundo"
+        android:name="com.example.reforaccion.Segundo"
+        tools:layout="@layout/fragment_segundo" />
+
+    <fragment
+        android:id="@+id/Tercero"
+        android:name="com.example.reforaccion.Tercero"
+        tools:layout="@layout/fragment_tercero" />
+
+    <fragment
+        android:id="@+id/Cuarto"
+        android:name="com.example.reforaccion.Cuarto"
+        tools:layout="@layout/fragment_cuarto" />
+
+    <fragment
+        android:id="@+id/Quinto"
+        android:name="com.example.reforaccion.Quinto"
+        tools:layout="@layout/fragment_quinto" />
+
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Primero"
+        android:icon="@drawable/icono_consejos"
+        android:title="Consejos"/>
+
+    <item
+        android:id="@+id/Segundo"
+        android:icon="@drawable/icono_registro"
+        android:title="Registros"/>
+
+    <item
+        android:id="@+id/Tercero"
+        android:icon="@drawable/icono_inicio"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/Cuarto"
+        android:icon="@drawable/icono_estadisticas"
+        android:title="Estadisticas"/>
+
+    <item
+        android:id="@+id/Quinto"
+        android:icon="@drawable/icono_menu"
+        android:title="Menu"/>
+</menu>
