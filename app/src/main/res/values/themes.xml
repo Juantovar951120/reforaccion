@@ -22,8 +22,8 @@
 
 
     <style name="BottomNavigation">
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@color/tierra</item>
         <item name="itemIconTint">@color/black</item>
-        <item name="itemTextColor">@color/tierra</item>
+        <item name="itemTextColor">@color/black</item>
     </style>
 </resources>

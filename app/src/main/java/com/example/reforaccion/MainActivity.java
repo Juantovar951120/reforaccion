@@ -46,20 +46,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        tv_mastarde=(TextView) findViewById(R.id.tv_mastarde);
-
-        tv_mastarde.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Toast.makeText(getApplicationContext(),"Bienvenidos", Toast.LENGTH_SHORT).show();
-
-                Intent i = new Intent(MainActivity.this,Inicio4.class);
-                startActivity(i);
-            }
-        });
-
     }
 
 }
