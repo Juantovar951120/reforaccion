@@ -13,16 +13,19 @@
         android:theme="@style/Theme.ReforAccion"
         tools:targetApi="31">
         <activity
-            android:name=".prueba"
+            android:name=".Informacion"
             android:exported="false" />
         <activity
-            android:name=".consejos6"
+            android:name=".Estadisticas"
             android:exported="false" />
         <activity
-            android:name=".estadisticas5"
+            android:name=".Registro"
             android:exported="false" />
         <activity
-            android:name=".Inicio4"
+            android:name=".Inicio"
+            android:exported="false" />
+        <activity
+            android:name=".Consejos"
             android:exported="false" />
         <activity
             android:name=".Registro3"

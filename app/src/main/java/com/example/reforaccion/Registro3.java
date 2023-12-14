@@ -75,32 +75,32 @@ public class Registro3 extends AppCompatActivity {
         boolean validarDate=true;
 
         if (ingre_nombre.getText().toString().isEmpty()){
-            ingre_nombre.setBackgroundColor(Color.RED);
+            ingre_nombre.setBackgroundColor(Color.GREEN);
             validarDate=false;
         } else {
             ingre_nombre.setBackgroundColor(Color.TRANSPARENT);
         }
         if (ingre_correo.getText().toString().isEmpty()){
-            ingre_correo.setBackgroundColor(Color.RED);
+            ingre_correo.setBackgroundColor(Color.GREEN);
             validarDate=false;
         }else {
             ingre_correo.setBackgroundColor(Color.TRANSPARENT);
         }
         if (ingre_contra.getText().toString().isEmpty()){
-            ingre_contra.setBackgroundColor(Color.RED);
+            ingre_contra.setBackgroundColor(Color.GREEN);
             validarDate=false;
         }else {
             ingre_contra.setBackgroundColor(Color.TRANSPARENT);
         }
         if (confirma_contra.getText().toString().isEmpty()){
-            confirma_contra.setBackgroundColor(Color.RED);
+            confirma_contra.setBackgroundColor(Color.GREEN);
             validarDate=false;
         }else {
             confirma_contra.setBackgroundColor(Color.TRANSPARENT);
         }
         if (!confirma_contra.getText().toString().equals(confirma_contra.getText().toString())){
-            confirma_contra.setBackgroundColor(Color.RED);
-            confirma_contra.setBackgroundColor(Color.RED);
+            confirma_contra.setBackgroundColor(Color.GREEN);
+            confirma_contra.setBackgroundColor(Color.GREEN);
             validarDate=false;
             Toast.makeText(getApplicationContext(), "La contraseña no coincide", Toast.LENGTH_LONG).show();
         }else {
@@ -109,7 +109,7 @@ public class Registro3 extends AppCompatActivity {
         }
 
         if (!check.isChecked()){
-            check.setBackgroundColor(Color.RED);
+            check.setBackgroundColor(Color.GREEN);
             validarDate=false;
         } else {
             check.setBackgroundColor(Color.TRANSPARENT);

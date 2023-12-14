@@ -13,10 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     Button btn_inicio;
     Button btn_registrarse;
-    TextView tv_mastarde;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

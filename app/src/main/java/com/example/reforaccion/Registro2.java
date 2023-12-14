@@ -40,7 +40,7 @@ public class Registro2 extends AppCompatActivity {
         //ext_password=findViewById(R.id.ext_password);
 
         Intent regis=new Intent(getApplicationContext(), Registro2.class);
-        Intent logi=new Intent(getApplicationContext(), Inicio4.class);
+        Intent logi=new Intent(getApplicationContext(), Inicio.class);
 
         File fileUser=new File(getFilesDir(),"user.txt");
 

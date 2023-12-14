@@ -22,6 +22,6 @@
 
     <item
         android:id="@+id/Quinto"
-        android:icon="@drawable/icono_menu"
-        android:title="Menu"/>
+        android:icon="@drawable/icono_informacion"
+        android:title="Información"/>
 </menu>
